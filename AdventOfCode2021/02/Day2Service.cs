@@ -2,9 +2,8 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Threading.Tasks;
-using AdventOfCode2021._02;
 
-namespace AdventOfCode2021
+namespace AdventOfCode2021._02
 {
     public static class Day2Service
     {

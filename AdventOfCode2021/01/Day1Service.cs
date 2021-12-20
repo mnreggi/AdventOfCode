@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021
+namespace AdventOfCode2021._01
 {
     public static class Day1Service
     {
