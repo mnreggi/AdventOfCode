@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using AdventOfCode2021._01;
 using AdventOfCode2021._02;
 using AdventOfCode2021._03;
+using AdventOfCode2021._04;
 
 namespace AdventOfCode2021
 {
@@ -25,6 +26,10 @@ namespace AdventOfCode2021
                 case "3":
                     Console.WriteLine($"Power consumption of the submarine : {await Day3Service.Day3_Part1()}");
                     Console.WriteLine($"Life support of the submarine : {await Day3Service.Day3_Part2()}");
+                    break;
+                case "4":
+
+                    await Day4Service.Day4_Part1();
                     break;
             }
         }
